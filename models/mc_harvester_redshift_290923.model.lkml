@@ -6,6 +6,7 @@ connection: "mc_looker_redshift"
 include: "/views/dept.view.lkml"
 include: "/views/empsal.view.lkml"
 include: "/views/expence.view.lkml"
+include: "/mc_havester_redshift_290923.dashboard.lookml"
 
 datagroup: mc_harvester_redshift_290923_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
